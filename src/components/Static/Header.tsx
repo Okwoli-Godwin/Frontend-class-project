@@ -7,7 +7,7 @@ const Header = () => {
 
     const [isSticky, setIsSticky] = useState(false)
 
-    useState(() => {
+    useEffect(() => {
         const handleScroll = () => {
             const scroll = window.pageYOffset;
             if (scroll > 150) {

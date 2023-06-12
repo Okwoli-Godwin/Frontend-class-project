@@ -9,7 +9,6 @@ export const Elements = createBrowserRouter([
         children: [
             {
                 index: true,
-                path: "/Landingpage",
                 element: <Landingpage />
             }
         ]
