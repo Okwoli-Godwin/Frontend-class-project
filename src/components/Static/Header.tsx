@@ -27,7 +27,7 @@ const Header = () => {
   return (
       <>
           {isSticky ? (
-              <div className="h-20 w-full bg-[#fff] flex justify-center backdrop-filter backdrop-blur fixed animate-slideDown">
+              <div className="h-20 w-full bg-[#fff] flex justify-center backdrop-filter backdrop-blur fixed animate-slideDown ease-out">
           <div className="w-[95%] flex items-center justify-between">
               <img src={img} className="h-[110px]" />
               
