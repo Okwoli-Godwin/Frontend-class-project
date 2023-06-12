@@ -1,5 +1,6 @@
 import img from "../../assets/locourse.png"
 import { FiSearch } from "react-icons/fi"
+import {AiOutlineShoppingCart} from "react-icons/ai"
 
 const Header = () => {
   return (
@@ -14,7 +15,11 @@ const Header = () => {
               </div>
 
               <div className="flex items-center">
-                  <div className="text-[#5F5982] text-lg"><FiSearch /></div>
+                  <div className="text-[#5F5982] text-xl ml-8 cursor-pointer"><FiSearch /></div>
+                  <div className="text-[#5F5982] text-xl ml-8 cursor-pointer"><AiOutlineShoppingCart /></div>
+                  <button className="text-white w-[100px] h-[45px] flex justify-center items-center cursor-pointer bg-[#dc3545] rounded ml-8">
+                      Register
+                  </button>
               </div>
           </div>
     </div>
