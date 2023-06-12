@@ -1,8 +1,11 @@
+import Hero from "./Hero"
 
 
 const Landingpage = () => {
   return (
-    <div>Landingpage</div>
+      <div>
+          <Hero />  
+    </div>
   )
 }
 
