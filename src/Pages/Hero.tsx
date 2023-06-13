@@ -2,7 +2,7 @@ import { FiSearch } from "react-icons/fi"
 
 const Hero = () => {
   return (
-      <div className='w-full h-[100%] bg-[#FEF0EF] flex justify-center'>
+      <div className='w-full h-[100%] bg-[#FEF0EF] flex justify-center pb-[120px]'>
           <div className="w-[90%] flex">
               <div className="w-[50%] flex flex-col">
                   <h2 className="text-6xl font-semibold mt-[150px] leading-none text-[#212529]">  Learn more and make success the result of perfection.</h2>
