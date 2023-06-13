@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundColor: {
+        'one': '#fd7e14'
+      },
+
       keyframes: {
         slideDown: {
           '0%': {

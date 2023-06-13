@@ -7,6 +7,9 @@ const Hero = () => {
               <div className="w-[50%] flex flex-col">
                   <h2 className="text-6xl font-semibold mt-[150px] leading-none text-[#212529]">  Learn more and make success the result of perfection.</h2>
                   <p className="mt-8 text-xl text-[#5F5982]">Pick from over 100,000 online video courses with new additions published every month.</p>
+                  <div className="w-[300px] h-[50px]">
+                      
+                  </div>
               </div>
           </div>
     </div>
