@@ -1,4 +1,4 @@
-
+import { FiSearch } from "react-icons/fi"
 
 const Hero = () => {
   return (
@@ -7,8 +7,15 @@ const Hero = () => {
               <div className="w-[50%] flex flex-col">
                   <h2 className="text-6xl font-semibold mt-[150px] leading-none text-[#212529]">  Learn more and make success the result of perfection.</h2>
                   <p className="mt-8 text-xl text-[#5F5982]">Pick from over 100,000 online video courses with new additions published every month.</p>
-                  <div className="w-[600px] h-[60px] bg-red-700 mt-[18px] flex">
-                      <input type="text" className="flex pl-5" placeholder="Search your favourite course"/>
+                  <div className="w-[600px] h-[60px] bg-red-700 mt-[18px] flex overflow-hidden rounded">
+                      <input
+                          type="text"
+                          className="flex pl-5 outline-none flex-1 placeholder-gray-600"
+                          placeholder="Search your favourite course"
+                      />
+                      <div className="w-[70px] h-[100%] flex justify-center items-center bg-[#dc3545]">
+                          <div className="text-white text-2xl"><FiSearch /></div>
+                      </div>
                   </div>
               </div>
           </div>
