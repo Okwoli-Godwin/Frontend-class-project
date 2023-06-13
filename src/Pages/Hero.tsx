@@ -1,5 +1,6 @@
 import { FiSearch } from "react-icons/fi"
 import dot from "../assets/dots.svg"
+import smile from "../assets/ladysmile.png"
 
 const Hero = () => {
   return (
@@ -24,7 +25,7 @@ const Hero = () => {
               <div className="w-[47%] mt-[80px] flex justify-end">
                   <img src={dot} className="absolute right-0 top-[120px]" />
                   <div className="w-[350px] h-[500px] border-[#fd7e14] border-2 rounded-xl">
-                      
+                      <img src={smile}  className="absolute right-[120px] h-[500px] top-[40px]"/>
                   </div>
               </div>
           </div>
