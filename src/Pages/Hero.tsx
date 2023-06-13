@@ -3,9 +3,9 @@ import dot from "../assets/dots.svg"
 
 const Hero = () => {
   return (
-      <div className='w-full h-[100%] bg-[#FEF0EF] flex justify-center pb-[120px] relative'>
+      <div className='w-full h-[100%] bg-[#FEF0EF] flex justify-center pb-[180px] relative'>
           <img src={dot} className="absolute bottom-0 left-0"/>
-          <div className="w-[90%] flex">
+          <div className="w-[90%] flex justify-between">
               <div className="w-[50%] flex flex-col">
                   <h2 className="text-6xl font-semibold mt-[150px] leading-none text-[#212529]">  Learn more and make success the result of perfection.</h2>
                   <p className="mt-8 text-xl text-[#5F5982] z-10">Pick from over 100,000 online video courses with new additions published every month.</p>
@@ -19,6 +19,10 @@ const Hero = () => {
                           <div className="text-white text-2xl"><FiSearch /></div>
                       </div>
                   </div>
+              </div>
+
+              <div className="w-[47%] mt-[80px]">
+                  <img src={dot} className="absolute right-0 top-[120px]"/>
               </div>
           </div>
     </div>
