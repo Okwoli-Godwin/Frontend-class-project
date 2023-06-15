@@ -1,8 +1,10 @@
-
+import dot from "../assets/dots.svg"
 
 const Online = () => {
   return (
-      <div className="w-[100%] flex bg-[#FEF0EF] pb-[140px]">
+      <div className="w-[100%] flex bg-[#FEF0EF] pb-[140px] relative">
+          <img src={dot} className="absolute bottom-0" />
+          <img src={dot} className="absolute right-0 top-[80px]" />
           <div className="w-[90%] flex justify-center items-center relative flex-col">
               <h1 className="text-[41px] mt-[140px]">Select the best from various online courses.</h1>
               <p className="w-[60%] text-[20px] text-center mt-[14px]">
