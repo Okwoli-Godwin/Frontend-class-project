@@ -4,7 +4,7 @@ import { AiOutlineStar, AiOutlineEye, AiOutlinePlayCircle } from "react-icons/ai
 
 const Course = () => {
   return (
-    <div className="w-[100%] bg-[#ececffda] justify-center flex pb-[35px]">
+    <div className="w-[100%] bg-[#ececffda] justify-center flex pb-[90px]">
       <div className="w-[90%] flex flex-col">
 
         <div className="w-full flex h-20 mt-[90px] justify-between">
