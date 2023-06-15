@@ -1,12 +1,14 @@
 import Course from "./Course"
 import Hero from "./Hero"
+import Online from "./Online"
 
 
 const Landingpage = () => {
   return (
       <div>
-          <Hero />  
-          <Course />
+      <Hero />  
+      <Course />
+      <Online />
     </div>
   )
 }
