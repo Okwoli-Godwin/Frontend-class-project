@@ -1,4 +1,5 @@
 import img from "../assets/thumbs.png"
+import { AiOutlineStar } from "react-icons/ai"
 
 const Course = () => {
   return (
@@ -14,8 +15,17 @@ const Course = () => {
 
         <div className="w-full flex">
           <div className="w-[380px] justify-center flex bg-white mt-[50px] rounded-md pt-[18px] pl-[18px] pr-[18px] pb-[18px]">
-            <div className="w-[100%] flex fle-col">
-              <img src={img} className=""/>
+            <div className="w-[100%] flex flex-col">
+              <img src={img} className="" />
+
+              <div className="w-full flex justify-between">
+                <div className="flex items-center mt-[10px]">
+                  <div className="text-yellow-500">
+                    <AiOutlineStar />
+                  </div>
+                  <h3>4.5</h3>
+                </div>
+              </div>
             </div>
           </div>
         </div>
