@@ -34,7 +34,7 @@ const Course = () => {
                 </div>
 
                 <div className="flex items-center mt-[10px]">
-                  <div className="text-[#C9AF89] text-[25px]">
+                  <div className="text-green-500 text-[25px]">
                     <AiOutlinePlayCircle />
                   </div>
                   <h3 className="ml-[5px]">9</h3>
