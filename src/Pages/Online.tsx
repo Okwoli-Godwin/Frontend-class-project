@@ -4,6 +4,7 @@ import img from "../assets/round1.png"
 import img2 from "../assets/round2.png"
 import img3 from "../assets/round3.png"
 import img4 from "../assets/round4.png"
+import img5 from "../assets/round5.png"
 
 const Online = () => {
   return (
@@ -16,6 +17,7 @@ const Online = () => {
           <img src={img2} className="absolute right-[100px] top-[230px]" />
           <img src={img3} className="absolute right-[200px] top-[350px]" />
           <img src={img4} className="absolute left-[160px] top-[80px]" />
+          <img src={img5} className="absolute left-[70px] top-[270px]" />
 
           <div className="w-[100%] flex items-center relative flex-col">
               <h1 className="text-[41px] mt-[150px]">Select the best from various online courses.</h1>
