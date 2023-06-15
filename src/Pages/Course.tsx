@@ -46,11 +46,13 @@ const Course = () => {
 
               <h3 className="text-[24px] mt-[12px]">Learn Python Programming Beginner</h3>
 
-              <div className="w-full flex items-center mt-[15px]">
+              <div className="w-full flex items-center mt-[15px] justify-between">
                 <div className="flex items-center">
                   <img src={img2} className="rounded-md" />
                   <h5 className="ml-10px">Petey Cruiser</h5>
                 </div>
+
+                <h3 className="text-yellow-500 text-[18px] font-bold">$123.00</h3>
               </div>
             </div>
           </div>
