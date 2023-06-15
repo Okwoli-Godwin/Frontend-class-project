@@ -13,8 +13,10 @@ const Course = () => {
         </div>
 
         <div className="w-full flex">
-          <div className="w-[380px] h-20 bg-white mt-[50px] rounded-md">
+          <div className="w-[380px] justify-center flex bg-white mt-[50px] rounded-md pt-[18px] pl-[18px] pr-[18px] pb-[18px]">
+            <div className="w-[100%] h-20 bg-red-700">
 
+            </div>
           </div>
         </div>
       </div>
