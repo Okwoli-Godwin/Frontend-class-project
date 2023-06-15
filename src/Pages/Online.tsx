@@ -1,8 +1,12 @@
-import React from 'react'
+
 
 const Online = () => {
   return (
-    <div>Online</div>
+      <div className="w-[100%] flex bg-[#FEF0EF] ">
+          <div className="w-[90%] flex justify-center items-center relative flex-col">
+              <h1>Select the best from various online courses.</h1>
+          </div>
+    </div>
   )
 }
 
