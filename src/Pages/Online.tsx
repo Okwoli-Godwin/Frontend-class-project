@@ -2,6 +2,7 @@ import dot from "../assets/dots.svg"
 import circ from "../assets/circ.svg"
 import img from "../assets/round1.png"
 import img2 from "../assets/round2.png"
+import img3 from "../assets/round3.png"
 
 const Online = () => {
   return (
@@ -12,6 +13,7 @@ const Online = () => {
           <img src={circ} className="absolute left-[160px] top-[200px]" />
           <img src={img} className="absolute right-[180px] top-[80px]" />
           <img src={img2} className="absolute right-[100px] top-[230px]" />
+          <img src={img3} className="absolute right-[200px] top-[350px]" />
 
           <div className="w-[100%] flex items-center relative flex-col">
               <h1 className="text-[41px] mt-[150px]">Select the best from various online courses.</h1>
