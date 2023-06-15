@@ -41,7 +41,9 @@ const Course = () => {
                 </div>
               </div>
 
-              <div className="w-full h-[1px] bg-gray-500 mt-[5px]"></div>
+              <div className="w-full h-[1px] bg-gray-400 mt-[5px]"></div>
+
+              <h3 className="text-[24px] mt-[12px]">Learn Python Programming Beginner</h3>
             </div>
           </div>
         </div>
