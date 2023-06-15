@@ -1,5 +1,5 @@
 import img from "../assets/thumbs.png"
-import { AiOutlineStar } from "react-icons/ai"
+import { AiOutlineStar, AiOutlineEye } from "react-icons/ai"
 
 const Course = () => {
   return (
@@ -22,6 +22,13 @@ const Course = () => {
                 <div className="flex items-center mt-[10px]">
                   <div className="text-yellow-500 text-[25px]">
                     <AiOutlineStar />
+                  </div>
+                  <h3 className="ml-[5px]">4.5</h3>
+                </div>
+
+                <div className="flex items-center mt-[10px]">
+                  <div className="text-yellow-500 text-[25px]">
+                    <AiOutlineEye />
                   </div>
                   <h3 className="ml-[5px]">4.5</h3>
                 </div>
