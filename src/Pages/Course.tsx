@@ -20,10 +20,10 @@ const Course = () => {
 
               <div className="w-full flex justify-between">
                 <div className="flex items-center mt-[10px]">
-                  <div className="text-yellow-500">
+                  <div className="text-yellow-500 text-[25px]">
                     <AiOutlineStar />
                   </div>
-                  <h3>4.5</h3>
+                  <h3 className="ml-[5px]">4.5</h3>
                 </div>
               </div>
             </div>
