@@ -7,6 +7,7 @@ const Online = () => {
           <img src={dot} className="absolute bottom-0" />
           <img src={dot} className="absolute right-0 top-[80px]" />
           <img src={circ} className="absolute right-[70px] top-[80px]" />
+          <img src={circ} className="absolute left-[160px] top-[200px]" />
 
           <div className="w-[100%] flex items-center relative flex-col">
               <h1 className="text-[41px] mt-[150px]">Select the best from various online courses.</h1>
