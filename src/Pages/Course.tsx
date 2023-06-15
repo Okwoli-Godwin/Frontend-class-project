@@ -1,4 +1,5 @@
 import img from "../assets/thumbs.png"
+import img2 from "../assets/petey.png"
 import { AiOutlineStar, AiOutlineEye, AiOutlinePlayCircle } from "react-icons/ai"
 
 const Course = () => {
@@ -44,6 +45,12 @@ const Course = () => {
               <div className="w-full h-[1px] bg-gray-400 mt-[5px]"></div>
 
               <h3 className="text-[24px] mt-[12px]">Learn Python Programming Beginner</h3>
+
+              <div className="w-full flex items-center mt-[15px]">
+                <div>
+                  <img src={img2} className="rounded-md" />
+                </div>
+              </div>
             </div>
           </div>
         </div>
