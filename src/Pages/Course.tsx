@@ -40,6 +40,8 @@ const Course = () => {
                   <h3 className="ml-[5px]">9</h3>
                 </div>
               </div>
+
+              <div className="w-full h-[1px] bg-gray-500 mt-[5px]"></div>
             </div>
           </div>
         </div>
